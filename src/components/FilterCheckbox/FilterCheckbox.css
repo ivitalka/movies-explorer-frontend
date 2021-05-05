@@ -1,0 +1,52 @@
+.filter {
+    margin: 0   auto;
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+}
+
+.filter__checkbox {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+}
+
+.filter__checkbox + .filter__pseudo-item {
+    content: '';
+    display: block;
+    width: 34px;
+    height: 14px;
+    border-radius: 20px;
+    background-color: #343434;
+    background-image: url("../../images/tumb-off.svg");
+    background-repeat: no-repeat;
+    background-position-x: 2px;
+    background-position-y: center;
+    transition: background-color, background-position 100ms;
+}
+
+.filter__checkbox + .filter__pseudo-item:hover {
+    cursor: pointer;
+}
+
+.filter__checkbox:checked + .filter__pseudo-item {
+    background-color: #3DDC84;
+    background-image: url("../../images/tumb-on.svg");
+    background-position-x: 21px;
+    transition: background-color, background-position 100ms;
+}
+.filter__checkbox:checked + .filter__pseudo-item:hover {
+    cursor: pointer;
+}
+
+.filter__text {
+    display: flex;
+    align-content: center;
+    margin: 0 0 0 12px;
+    color: #FFFFFF;
+    font-size: 12px;
+    line-height: 1.5;
+    font-weight: 400;
+}

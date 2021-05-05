@@ -1,0 +1,123 @@
+.about-project {
+    box-sizing: border-box;
+    margin: 0 auto;
+    max-width: 1280px;
+    padding: 110px 70px 110px 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-project__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.about-project__wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-project__subtitle {
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: -0.04em;
+    margin: 70px auto 0 0;
+}
+
+.about-project__text {
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 1.4;
+    font-weight: 400;
+    margin: 26px auto 0 0;
+    max-width: 550px;
+}
+
+.about-project__week-container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    margin: 110px 0 0 0;
+}
+
+.about-project__week-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 400;
+    height: 36px;
+    margin: 0;
+}
+
+.about-project__week-text_one {
+    color: #000000;
+    background-color: #3DDC84;
+}
+
+.about-project__week-text_four {
+    color: #FFFFFF;
+    background-color: #303030;
+}
+
+.about-project__parts {
+    color: #8B8B8B;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 14px 0 0 0;
+}
+
+@media screen and (max-width: 768px) {
+    .about-project {
+        padding: 90px 50px 90px 50px;
+    }
+
+    .about-project__text {
+        font-size: 12px;
+        line-height: 1.5;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .about-project__container {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .about-project {
+        padding: 70px 14px;
+    }
+
+    .about-project__subtitle {
+        margin-top: 56px;
+        font-size: 18px;
+        line-height: 1.2;
+    }
+
+    .about-project__text {
+        margin: 16px 0 0 0;
+        font-size: 11px;
+        line-height: 1.4;
+    }
+
+    .about-project__week-container {
+        margin-top: 60px;
+        grid-template-columns: 100px 1fr;
+    }
+
+    .about-project__week-text {
+        font-size: 11px;
+    }
+
+    .about-project__parts {
+        font-size: 11px;
+    }
+}
