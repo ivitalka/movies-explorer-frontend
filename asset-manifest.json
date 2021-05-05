@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.de3c8749.chunk.css",
-    "main.js": "/static/js/main.305150d2.chunk.js",
-    "main.js.map": "/static/js/main.305150d2.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.0411b23c.js",
-    "runtime-main.js.map": "/static/js/runtime-main.0411b23c.js.map",
-    "static/js/2.7886c3c8.chunk.js": "/static/js/2.7886c3c8.chunk.js",
-    "static/js/2.7886c3c8.chunk.js.map": "/static/js/2.7886c3c8.chunk.js.map",
-    "static/js/3.1a497297.chunk.js": "/static/js/3.1a497297.chunk.js",
-    "static/js/3.1a497297.chunk.js.map": "/static/js/3.1a497297.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.de3c8749.chunk.css.map": "/static/css/main.de3c8749.chunk.css.map",
-    "static/js/2.7886c3c8.chunk.js.LICENSE.txt": "/static/js/2.7886c3c8.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/static/media/Inter-SemiBold.625474d6.woff2",
-    "static/media/Portfolio.css": "/static/media/arrow-icon.7b4fad5f.svg",
-    "static/media/Navigation.css": "/static/media/profile.c94dcf33.svg",
-    "static/media/Login.css": "/static/media/logo.3b51063e.svg",
-    "static/media/student.8958655b.jpg": "/static/media/student.8958655b.jpg",
-    "static/media/FilterCheckbox.css": "/static/media/tumb-on.ed1a79f4.svg"
+    "main.css": "/movies-explorer-frontend/static/css/main.01e2ccce.chunk.css",
+    "main.js": "/movies-explorer-frontend/static/js/main.305150d2.chunk.js",
+    "main.js.map": "/movies-explorer-frontend/static/js/main.305150d2.chunk.js.map",
+    "runtime-main.js": "/movies-explorer-frontend/static/js/runtime-main.3f1c10f1.js",
+    "runtime-main.js.map": "/movies-explorer-frontend/static/js/runtime-main.3f1c10f1.js.map",
+    "static/js/2.7886c3c8.chunk.js": "/movies-explorer-frontend/static/js/2.7886c3c8.chunk.js",
+    "static/js/2.7886c3c8.chunk.js.map": "/movies-explorer-frontend/static/js/2.7886c3c8.chunk.js.map",
+    "static/js/3.1a497297.chunk.js": "/movies-explorer-frontend/static/js/3.1a497297.chunk.js",
+    "static/js/3.1a497297.chunk.js.map": "/movies-explorer-frontend/static/js/3.1a497297.chunk.js.map",
+    "index.html": "/movies-explorer-frontend/index.html",
+    "static/css/main.01e2ccce.chunk.css.map": "/movies-explorer-frontend/static/css/main.01e2ccce.chunk.css.map",
+    "static/js/2.7886c3c8.chunk.js.LICENSE.txt": "/movies-explorer-frontend/static/js/2.7886c3c8.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/movies-explorer-frontend/static/media/Inter-SemiBold.625474d6.woff2",
+    "static/media/Portfolio.css": "/movies-explorer-frontend/static/media/arrow-icon.7b4fad5f.svg",
+    "static/media/Navigation.css": "/movies-explorer-frontend/static/media/profile.c94dcf33.svg",
+    "static/media/Login.css": "/movies-explorer-frontend/static/media/logo.3b51063e.svg",
+    "static/media/student.8958655b.jpg": "/movies-explorer-frontend/static/media/student.8958655b.jpg",
+    "static/media/FilterCheckbox.css": "/movies-explorer-frontend/static/media/tumb-on.ed1a79f4.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.0411b23c.js",
+    "static/js/runtime-main.3f1c10f1.js",
     "static/js/2.7886c3c8.chunk.js",
-    "static/css/main.de3c8749.chunk.css",
+    "static/css/main.01e2ccce.chunk.css",
     "static/js/main.305150d2.chunk.js"
   ]
 }
