@@ -16,6 +16,11 @@
 .about-project__wrap {
     display: flex;
     flex-direction: column;
+    margin-right: 50px;
+}
+
+.about-project__wrap:last-of-type {
+    margin-right:0;
 }
 
 .about-project__subtitle {
