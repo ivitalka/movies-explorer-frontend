@@ -1,0 +1,12 @@
+.title {
+    box-sizing: border-box;
+    height: 50px;
+    font-size: 22px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #FFFFFF;
+    letter-spacing: -0.04em;
+    border-bottom: 1px solid #FFFFFF;
+    padding-bottom: 23px;
+    margin: 0;
+}

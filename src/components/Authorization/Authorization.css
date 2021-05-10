@@ -1,0 +1,41 @@
+.authorization {
+    display: flex;
+    flex-direction: row;
+}
+
+.authorization_disabled {
+    display: none;
+}
+
+.authorization__link {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 500;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    margin: 0 0 0 30px;
+}
+
+.authorization__link_action_login {
+    background-color: #3DDC84;
+    color: #202020;
+    width: 76px;
+}
+
+.authorization__link:hover {
+    opacity: 0.7;
+    transition: opacity 8ms;
+}
+
+.authorization__link:focus-visible{
+    outline: 2px solid #3DDC84;
+}
+
+.authorization__link_action_login:focus-visible {
+    outline: 2px solid #424242;
+}
