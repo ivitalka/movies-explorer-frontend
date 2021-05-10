@@ -10,8 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27d51fa3-fd64-4223-a3a6-d05d7c2750ae" name="Default Changelist" comment="bugfix portfolio and moviescard">
+    <list default="true" id="27d51fa3-fd64-4223-a3a6-d05d7c2750ae" name="Default Changelist" comment="bugfix add remove icon">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MoviesCard/MoviesCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesCard/MoviesCard.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +81,7 @@
       <workItem from="1619171907180" duration="159575000" />
       <workItem from="1620477080525" duration="4882000" />
       <workItem from="1620494164831" duration="142000" />
+      <workItem from="1620576635520" duration="615000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize project using Create React App">
       <created>1619172220277</created>
@@ -116,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620481283332</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="bugfix add remove icon">
+      <created>1620576677112</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1620576677112</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,7 +148,8 @@
     <MESSAGE value="Initialize project using Create React App" />
     <MESSAGE value="init commit" />
     <MESSAGE value="bugfix portfolio and moviescard" />
-    <option name="LAST_COMMIT_MESSAGE" value="bugfix portfolio and moviescard" />
+    <MESSAGE value="bugfix add remove icon" />
+    <option name="LAST_COMMIT_MESSAGE" value="bugfix add remove icon" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1417" y="-900" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1620219681839">
@@ -174,10 +184,11 @@
       <screen x="-276" y="-1055" width="2560" height="1055" />
     </state>
     <state x="1224" y="-946" key="RollbackChangesDialog/-276.-1055.2560.1055/0.25.1440.813@-276.-1055.2560.1055" timestamp="1620479762878" />
-    <state x="1157" y="-969" key="Vcs.Push.Dialog.v2" timestamp="1620481289969">
-      <screen x="-276" y="-1055" width="2560" height="1055" />
+    <state x="640" y="91" key="Vcs.Push.Dialog.v2" timestamp="1620576690911">
+      <screen x="0" y="25" width="1440" height="813" />
     </state>
     <state x="1157" y="-969" key="Vcs.Push.Dialog.v2/-276.-1055.2560.1055/0.25.1440.813@-276.-1055.2560.1055" timestamp="1620481289969" />
+    <state x="640" y="91" key="Vcs.Push.Dialog.v2/0.25.1440.813@0.25.1440.813" timestamp="1620576690911" />
     <state x="1488" y="-788" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1620222529517">
       <screen x="-276" y="-1055" width="2560" height="1055" />
     </state>
