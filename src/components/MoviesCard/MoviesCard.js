@@ -10,7 +10,7 @@ function MoviesCard({card}) {
                     <h2 className="movies-card__title">{card.nameRu}</h2>
                     <button type="button" className="
                     movies-card__favorites
-                    {/*movies-card__favorites_active*/}
+                    movies-card__favorites_active
                     {/*movies-card__favorites_remove*/}
                     "/>
                 </div>
