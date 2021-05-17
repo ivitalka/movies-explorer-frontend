@@ -4,7 +4,7 @@ import './Header.css';
 import Navigation from "../Navigation/Navigation";
 import Authorization from "../Authorization/Authorization.js"
 
-function Header({isLogged, isOpen, HamburgerMenuCalled, onClose}) {
+function Header({isLogged, isOpen, menuCalled, onClose}) {
 
     return (
         <header className="header">
@@ -12,7 +12,7 @@ function Header({isLogged, isOpen, HamburgerMenuCalled, onClose}) {
             <Navigation
                 isLogged = {isLogged}
                 isOpen={isOpen}
-                HamburgerMenuCalled={HamburgerMenuCalled}
+                menuCalled={menuCalled}
                 onClose={onClose}
             />
             <Authorization

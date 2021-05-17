@@ -53,18 +53,31 @@
     width: 100%;
     margin-left: 141px;
     padding:0 0 16px 0;
-    direction:RTL;
+    text-align: right;
     background-color: transparent;
     border: none;
 }
 
-.profile__error {
-    visibility: hidden;
+.profile__input-error {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: #ee3465;
+    font-size: 10px;
+    line-height: 1.2;
+    font-weight: 400;
+}
+
+.profile__message {
     color: #ff004c;
     font-size: 11px;
     line-height: 1.2;
     align-self: center;
     margin: 190px 0 20px 0;
+}
+
+.profile__message_success {
+    color: #3ddc84;
 }
 
 .profile__button {
@@ -82,6 +95,16 @@
     cursor: pointer;
     opacity: 0.7;
     transition: opacity 8ms;
+}
+.profile__button:disabled {
+    cursor: not-allowed;
+    color: #DBE2EA;
+    border: none;
+    box-shadow: none;
+}
+
+.profile__button:disabled:hover {
+    opacity: 1;
 }
 
 .profile__button_action_logout {

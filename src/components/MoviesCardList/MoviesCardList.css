@@ -16,6 +16,14 @@
     grid-row-gap: 32px;
 }
 
+.movies__notice {
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-align: center;
+}
+
 .movies__button {
     width: 320px;
     height: 36px;

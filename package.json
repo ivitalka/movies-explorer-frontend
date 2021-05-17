@@ -2,8 +2,8 @@
   "name": "movies-explorer-frontend",
   "version": "0.1.0",
   "private": true,
+  "homepage": "./",
   "main": "index.js",
-  "homepage":"https://ivitalka.github.io/movies-explorer-frontend",
   "dependencies": {
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.6",
@@ -21,7 +21,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "gh-pages -d build"
+    "deploy": "npm run build && scp -r ./build/* ivitalka@178.154.212.44:/home/ivitalka/movies-explorer-frontend"
   },
   "repository": {
     "type": "git",
