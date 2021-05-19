@@ -11,35 +11,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27d51fa3-fd64-4223-a3a6-d05d7c2750ae" name="Default Changelist" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/src/components/ProtectedRoute/ProtectedRoute.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contexts/CurrentUserContext.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/MainApi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/helpers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/moviesApi.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/App/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AuthFormInput/AuthFormInput.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AuthFormInput/AuthFormInput.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/AuthFormInput/AuthFormInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AuthFormInput/AuthFormInput.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FilterCheckbox/FilterCheckbox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FilterCheckbox/FilterCheckbox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FormButton/FormButton.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FormButton/FormButton.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/FormButton/FormButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FormButton/FormButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Login/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Movies/Movies.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Movies/Movies.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Movies/Movies.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Movies/Movies.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MoviesCard/MoviesCard.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesCard/MoviesCard.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MoviesCard/MoviesCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesCard/MoviesCard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MoviesCardList/MoviesCardList.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesCardList/MoviesCardList.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MoviesCardList/MoviesCardList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesCardList/MoviesCardList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navigation/Navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/Navigation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Register/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Register/Register.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/SearchForm/SearchForm.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchForm/SearchForm.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/SearchForm/SearchForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchForm/SearchForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/MainApi.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/MainApi.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/utils/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/constants.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -112,7 +94,8 @@
       <workItem from="1620494164831" duration="142000" />
       <workItem from="1620576635520" duration="615000" />
       <workItem from="1620745426577" duration="113123000" />
-      <workItem from="1621254282603" duration="4981000" />
+      <workItem from="1621254282603" duration="6087000" />
+      <workItem from="1621356024291" duration="24573000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize project using Create React App">
       <created>1619172220277</created>
@@ -156,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620576677112</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="initial commit">
+      <created>1621259776976</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1621259776976</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,6 +174,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1051" y="-1031" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1621410671657">
+      <screen x="-276" y="-1055" width="2560" height="1055" />
+    </state>
+    <state x="1051" y="-1031" key="#com.intellij.execution.impl.EditConfigurationsDialog/-276.-1055.2560.1055/0.25.1440.823@-276.-1055.2560.1055" timestamp="1621410671657" />
     <state x="1417" y="-900" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1620219681839">
       <screen x="-276" y="-1055" width="2560" height="1055" />
     </state>
@@ -217,10 +211,11 @@
     </state>
     <state x="1224" y="-946" key="RollbackChangesDialog/-276.-1055.2560.1055/0.25.1440.813@-276.-1055.2560.1055" timestamp="1620479762878" />
     <state x="1224" y="-946" key="RollbackChangesDialog/-276.-1055.2560.1055/0.25.1440.823@-276.-1055.2560.1055" timestamp="1620820019435" />
-    <state x="640" y="91" key="Vcs.Push.Dialog.v2" timestamp="1620576690911">
-      <screen x="0" y="25" width="1440" height="813" />
+    <state x="862" y="-969" key="Vcs.Push.Dialog.v2" timestamp="1621259783707">
+      <screen x="-276" y="-1055" width="2560" height="1055" />
     </state>
     <state x="1157" y="-969" key="Vcs.Push.Dialog.v2/-276.-1055.2560.1055/0.25.1440.813@-276.-1055.2560.1055" timestamp="1620481289969" />
+    <state x="862" y="-969" key="Vcs.Push.Dialog.v2/-276.-1055.2560.1055/0.25.1440.823@-276.-1055.2560.1055" timestamp="1621259783707" />
     <state x="640" y="91" key="Vcs.Push.Dialog.v2/0.25.1440.813@0.25.1440.813" timestamp="1620576690911" />
     <state x="1488" y="-788" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1620222529517">
       <screen x="-276" y="-1055" width="2560" height="1055" />

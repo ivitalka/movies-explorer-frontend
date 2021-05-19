@@ -22,6 +22,8 @@ function Register() {
 
     const [registerFormValid, setRegisterFormValid] = React.useState(false);
 
+    const [registerFormDisabled, setRegisterFormDisabled] = React.useState(false);
+
     const [registerMessage, setRegisterMessage] = React.useState('');
 
 
@@ -93,17 +95,19 @@ function Register() {
         mainApi.register(name, email, password)
             .then((data) => {
                 if (data.status === 200) {
-                    return history.push('/movies');
+                    return history.push('/signin');
                 }
                 data.json()
                     .then((obj) => {
                         throw new Error(obj.message);
                     })
                     .catch((e) => setRegisterMessage(e.message))
+                    .finally(() => setRegisterFormDisabled(false))
             })
     };
     const handleRegisterSubmit = (e) => {
         e.preventDefault();
+        setRegisterFormDisabled(true);
         handleRegister(registerName, registerEmail, registerPassword);
     }
 
@@ -124,6 +128,7 @@ function Register() {
                         name={"name"}
                         id={"name"}
                         placeholder={"Введите ваше имя"}
+                        formDisabled={registerFormDisabled}
                     />
                     <AuthFormInput
                         inputValue={ registerEmail }
@@ -136,6 +141,7 @@ function Register() {
                         name={"email"}
                         id={"email"}
                         placeholder={"Введите ваш email"}
+                        formDisabled={registerFormDisabled}
                     />
                     <AuthFormInput
                         inputValue={ registerPassword }
@@ -149,11 +155,13 @@ function Register() {
                         name={"password"}
                         id={"password"}
                         placeholder={"Введите ваш пароль"}
+                        formDisabled={registerFormDisabled}
                     />
                         <FormButton
                             buttonText="Зарегистрироваться"
                             formValid={ registerFormValid }
                             message={ registerMessage }
+                            formDisabled={registerFormDisabled}
                         />
 
                 </form>

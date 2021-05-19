@@ -1,7 +1,16 @@
 import React from 'react';
 import './MoviesCardList.css';
 import MoviesCard from "../MoviesCard/MoviesCard";
-import { DESKTOP_WIDTH, TABLET_WIDTH } from '../../utils/constants'
+import {
+    DESKTOP_WIDTH,
+    TABLET_WIDTH,
+    DESKTOP_INITIAL_QUANTITY,
+    DESKTOP_EXTRA_QUANTITY,
+    TABLET_INITIAL_QUANTITY,
+    TABLET_EXTRA_QUANTITY,
+    MOBILE_INITIAL_QUANTITY,
+    MOBILE_EXTRA_QUANTITY
+} from '../../utils/constants'
 
 function MoviesCardList({ movies, isSavedMovies, isAdded, addToFavorites, removeFromFavorites }) {
 
@@ -11,11 +20,11 @@ function MoviesCardList({ movies, isSavedMovies, isAdded, addToFavorites, remove
 
     const getCount = (windowWidth) => {
         if(windowWidth >= DESKTOP_WIDTH) {
-            return { initial: 12, extra: 4}
+            return { initial: DESKTOP_INITIAL_QUANTITY, extra: DESKTOP_EXTRA_QUANTITY}
         } if(windowWidth >= TABLET_WIDTH) {
-            return { initial: 8, extra: 2}
+            return { initial: TABLET_INITIAL_QUANTITY, extra: TABLET_EXTRA_QUANTITY}
         }
-        return {initial: 5, extra: 2}
+        return {initial: MOBILE_INITIAL_QUANTITY, extra: MOBILE_EXTRA_QUANTITY}
     }
     const renderExtraRow = () => {
         const count = Math.min(movies.length, currentCount + extraRow);

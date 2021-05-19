@@ -10,6 +10,8 @@ function Movies(
     React.useEffect(() => {
         setIsSavedPage(isSavedMovies);
     })
+
+    
     return (
         <>
             <SearchForm

@@ -6,7 +6,7 @@ import FormButton from "../FormButton/FormButton";
 import * as mainApi from "../../utils/MainApi";
 
 
-function Login({setIsLogged}) {
+function Login({ setIsLogged, getAllSavedMovies, getUserProfile }) {
 
     const [loginEmail, setLoginEmail] = React.useState("");
     const [loginEmailDirty, setLoginEmailDirty] = React.useState(false);
@@ -17,6 +17,8 @@ function Login({setIsLogged}) {
     const [loginPasswordError, setLoginPasswordError] = React.useState("Заполните поле");
 
     const [loginFormValid, setLoginFormValid] = React.useState(false);
+
+    const [loginFormDisabled, setLoginFormDisabled] = React.useState(false);
 
     const emailHandler = (e) => {
         setLoginEmail(e.target.value);
@@ -75,14 +77,19 @@ function Login({setIsLogged}) {
                 if(data.token) {
                     localStorage.setItem('token', data.token);
                     setIsLogged(true);
+                    setLoginFormDisabled(false)
                     history.push('/movies');
+                    getAllSavedMovies();
+                    getUserProfile();
                     return;
                 }
+                setLoginFormDisabled(false)
                 throw new Error(data.message);
             })
             .catch((e) => setLoginMessage(e.message))
     }
     const handleLoginSubmit = (e) => {
+        setLoginFormDisabled(true)
         e.preventDefault();
         handleLogin(loginEmail, loginPassword);
     }
@@ -103,6 +110,7 @@ function Login({setIsLogged}) {
                         name={ "email" }
                         id={ "email" }
                         placeholder={ "Введите ваш email" }
+                        formDisabled={loginFormDisabled}
                     />
                     <AuthFormInput
                         inputValue={ loginPassword }
@@ -115,11 +123,13 @@ function Login({setIsLogged}) {
                         name={ "password" }
                         id={ "password" }
                         placeholder={"Введите ваш пароль"}
+                        formDisabled={loginFormDisabled}
                     />
                     <FormButton
                         buttonText="Войти"
                         formValid={ loginFormValid }
                         message={ loginMessage }
+                        formDisabled={loginFormDisabled}
                     />
                 </form>
                 <p className="login__text">Уже зарегистрированы?
