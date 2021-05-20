@@ -4,6 +4,14 @@
     padding: 0 70px;
 }
 
+.movies__error {
+    color: #ff004c;
+    font-size: 18px;
+    line-height: 1.2;
+    text-align: center;
+    margin: 0;
+}
+
 @media screen and (max-width: 768px) {
     .movies {
         padding: 0 30px;

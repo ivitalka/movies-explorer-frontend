@@ -35,7 +35,7 @@
 }
 
 .auth-form-input__error {
-    visibility: hidden;
+    /*visibility: hidden;*/
     position: absolute;
     left: 0;
     top: 75px;
@@ -45,6 +45,6 @@
     font-weight: 400;
 }
 
-.auth-form-input__error_active {
-    visibility: visible;
-}
+/*.auth-form-input__error_active {*/
+/*    visibility: visible;*/
+/*}*/

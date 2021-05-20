@@ -10,9 +10,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27d51fa3-fd64-4223-a3a6-d05d7c2750ae" name="Default Changelist" comment="bugfix add remove icon">
+    <list default="true" id="27d51fa3-fd64-4223-a3a6-d05d7c2750ae" name="Default Changelist" comment="initial commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MoviesCard/MoviesCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesCard/MoviesCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AuthFormInput/AuthFormInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AuthFormInput/AuthFormInput.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FormButton/FormButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FormButton/FormButton.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Login/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Movies/Movies.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Movies/Movies.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MoviesCardList/MoviesCardList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MoviesCardList/MoviesCardList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Register/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Register/Register.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SearchForm/SearchForm.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchForm/SearchForm.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SearchForm/SearchForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchForm/SearchForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/MainApi.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/MainApi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/constants.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +56,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/build" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -55,18 +65,19 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/build" />
-      <recent name="$PROJECT_DIR$/src/components/Preloader" />
-      <recent name="$PROJECT_DIR$/src/vendor/fonts" />
-      <recent name="$PROJECT_DIR$/src/vendor" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/build" />
       <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src/vendor/styles" />
       <recent name="$PROJECT_DIR$/src/components/App" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/images" />
+      <recent name="$PROJECT_DIR$/src/contexts" />
+      <recent name="$PROJECT_DIR$/src/components/ProtectedRoute" />
+      <recent name="$PROJECT_DIR$/build" />
+      <recent name="$PROJECT_DIR$/src/components/Preloader" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -82,6 +93,9 @@
       <workItem from="1620477080525" duration="4882000" />
       <workItem from="1620494164831" duration="142000" />
       <workItem from="1620576635520" duration="615000" />
+      <workItem from="1620745426577" duration="113123000" />
+      <workItem from="1621254282603" duration="6087000" />
+      <workItem from="1621356024291" duration="24573000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize project using Create React App">
       <created>1619172220277</created>
@@ -125,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620576677112</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="initial commit">
+      <created>1621259776976</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1621259776976</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,9 +170,14 @@
     <MESSAGE value="init commit" />
     <MESSAGE value="bugfix portfolio and moviescard" />
     <MESSAGE value="bugfix add remove icon" />
-    <option name="LAST_COMMIT_MESSAGE" value="bugfix add remove icon" />
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1051" y="-1031" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1621410671657">
+      <screen x="-276" y="-1055" width="2560" height="1055" />
+    </state>
+    <state x="1051" y="-1031" key="#com.intellij.execution.impl.EditConfigurationsDialog/-276.-1055.2560.1055/0.25.1440.823@-276.-1055.2560.1055" timestamp="1621410671657" />
     <state x="1417" y="-900" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1620219681839">
       <screen x="-276" y="-1055" width="2560" height="1055" />
     </state>
@@ -180,26 +206,33 @@
     </state>
     <state width="1102" height="170" key="GridCell.Tab.0.right/-276.-1055.2560.1055/0.25.1440.813@-276.-1055.2560.1055" timestamp="1619628037795" />
     <state width="1102" height="170" key="GridCell.Tab.0.right/0.25.1440.813@0.25.1440.813" timestamp="1620290728973" />
-    <state x="1224" y="-946" key="RollbackChangesDialog" timestamp="1620479762878">
+    <state x="1224" y="-946" key="RollbackChangesDialog" timestamp="1620820019435">
       <screen x="-276" y="-1055" width="2560" height="1055" />
     </state>
     <state x="1224" y="-946" key="RollbackChangesDialog/-276.-1055.2560.1055/0.25.1440.813@-276.-1055.2560.1055" timestamp="1620479762878" />
-    <state x="640" y="91" key="Vcs.Push.Dialog.v2" timestamp="1620576690911">
-      <screen x="0" y="25" width="1440" height="813" />
+    <state x="1224" y="-946" key="RollbackChangesDialog/-276.-1055.2560.1055/0.25.1440.823@-276.-1055.2560.1055" timestamp="1620820019435" />
+    <state x="862" y="-969" key="Vcs.Push.Dialog.v2" timestamp="1621259783707">
+      <screen x="-276" y="-1055" width="2560" height="1055" />
     </state>
     <state x="1157" y="-969" key="Vcs.Push.Dialog.v2/-276.-1055.2560.1055/0.25.1440.813@-276.-1055.2560.1055" timestamp="1620481289969" />
+    <state x="862" y="-969" key="Vcs.Push.Dialog.v2/-276.-1055.2560.1055/0.25.1440.823@-276.-1055.2560.1055" timestamp="1621259783707" />
     <state x="640" y="91" key="Vcs.Push.Dialog.v2/0.25.1440.813@0.25.1440.813" timestamp="1620576690911" />
     <state x="1488" y="-788" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1620222529517">
       <screen x="-276" y="-1055" width="2560" height="1055" />
     </state>
     <state x="1488" y="-788" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-276.-1055.2560.1055/0.25.1440.813@-276.-1055.2560.1055" timestamp="1620222529517" />
-    <state x="1380" y="-951" width="602" height="490" key="find.popup" timestamp="1620145360807">
+    <state x="1380" y="-951" width="602" height="490" key="find.popup" timestamp="1621096953186">
       <screen x="-276" y="-1055" width="2560" height="1055" />
     </state>
     <state x="1380" y="-951" width="602" height="490" key="find.popup/-276.-1055.2560.1055/0.25.1440.813@-276.-1055.2560.1055" timestamp="1620145360807" />
-    <state x="1290" y="-910" width="670" height="676" key="search.everywhere.popup" timestamp="1620117789453">
+    <state x="1380" y="-951" width="602" height="490" key="find.popup/-276.-1055.2560.1055/0.25.1440.823@-276.-1055.2560.1055" timestamp="1621096953186" />
+    <state x="376" y="109" key="git4idea.branch.GitSmartOperationDialog" timestamp="1620637364550">
+      <screen x="0" y="25" width="1440" height="813" />
+    </state>
+    <state x="376" y="109" key="git4idea.branch.GitSmartOperationDialog/0.25.1440.813@0.25.1440.813" timestamp="1620637364550" />
+    <state x="1290" y="-910" width="670" height="676" key="search.everywhere.popup" timestamp="1620718824207">
       <screen x="-276" y="-1055" width="2560" height="1055" />
     </state>
-    <state x="1290" y="-910" width="670" height="676" key="search.everywhere.popup/-276.-1055.2560.1055/0.25.1440.813@-276.-1055.2560.1055" timestamp="1620117789453" />
+    <state x="1290" y="-910" width="670" height="676" key="search.everywhere.popup/-276.-1055.2560.1055/0.25.1440.813@-276.-1055.2560.1055" timestamp="1620718824207" />
   </component>
 </project>

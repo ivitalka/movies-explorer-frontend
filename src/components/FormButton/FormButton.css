@@ -1,3 +1,19 @@
+.form-button__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-button__error {
+    align-self: center;
+    /*position: absolute;*/
+    /*bottom: 65px;*/
+    /*left: 0;*/
+    font-size: 11px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #FF004C;
+}
+
 .form-button {
     background-color: #4285F4;
     border: none;
@@ -8,7 +24,7 @@
     font-size: 14px;
     line-height: 1.2;
     font-weight: 500;
-    margin: 50px 0 0 0;
+    margin: 20px 0 0 0;
 }
 
 .form-button:hover {
@@ -19,4 +35,15 @@
 
 .form-button:focus-visible {
     outline: 2px solid #FFFFFF;
+}
+
+.form-button:disabled {
+    cursor: not-allowed;
+    background-color: #DBE2EA;
+    border: none;
+    box-shadow: none;
+}
+
+.form-button:disabled:hover {
+    opacity: 1;
 }
